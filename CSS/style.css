@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+header {
+
+    background-color: var(--main-bg-color);
+    color: black;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 58px;
+
+}
+
+nav ul li {
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    padding: 14px 23px;
+    color: aliceblue;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    margin: 0 56px;
+    /* border-radius: 5px; */
+    padding: 0 12px;
+
+}
+
+.btn {
+
+    font-weight: 1000;
+    margin: 5px -50px;
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 1px solid;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    min-height: calc(100vh - 23px - 7.1vh);
+
+}
+
+.slider {
+    display: flex;
+    /* height: 400px;
+    width: 1459px; */
+    margin: 0px auto;
+    overflow: scroll;
+
+
+}
+
+.card {
+    max-width: 90vw;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-items {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+
+}
+
+.card-lines p {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+.card-lines h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Playfair Display', serif;
+    background: var(--main-bg-color);
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+}

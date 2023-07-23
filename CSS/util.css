@@ -1,0 +1,16 @@
+.flex-all-centre
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.my-1 {
+    margin: 26px 0;
+}
+
+.text-centre
+{
+    text-align: center;
+}
