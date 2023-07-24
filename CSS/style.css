@@ -92,7 +92,7 @@ nav ul li a:hover {
     /* height: 400px;
     width: 1459px; */
     margin: 0px auto;
-    overflow: scroll;
+    overflow: hidden;
 
 
 }
